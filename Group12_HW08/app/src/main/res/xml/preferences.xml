@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref">
+        <Preference
+            android:key="temp_unit"
+            android:summary="Choose between Celsius and Farenheit"
+            android:title="Temperature Unit" />
+         <Preference
+            android:key="current_city"
+            android:summary="Change Current City"
+            android:title="Current City" />
+</PreferenceScreen>
